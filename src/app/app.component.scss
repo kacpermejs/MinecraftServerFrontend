@@ -1,0 +1,40 @@
+.nav-left {
+    margin-left: 10%;
+}
+
+.nav-right {
+    margin-right: 10%;
+}
+
+nav {
+    background-color: #201e1d;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+
+    a {
+        color: unset;
+        padding: 8px 8px 8px 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-decoration: none;
+
+        border-width: 1px;
+        border-style: solid;
+        border-color: transparent;
+
+        &:hover {
+            color: lightgreen;
+        }
+
+        &.active{
+            border-color: #f5f5f5;
+        }
+    }
+}
+
+.main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
