@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: "Pixel Georgia Bold", monospace;
+    font-family: "FFF Forward", monospace;
     background-color: theme.$background-color;
     color: theme.$text-light-color;
     font-size: 12px;
@@ -31,7 +31,7 @@ body {
 
 button {
     font-size: 12px;
-    font-family: "Pixel Georgia Bold", monospace;
+    font-family: "FFF Forward", monospace;
 
     background-color: theme.$primary-color;
     padding: 8px;
@@ -58,4 +58,14 @@ button {
         color: theme.$text-light-color;
         box-shadow: 2px 2px 0px 0px theme.$text-light-color;
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
 }

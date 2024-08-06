@@ -13,6 +13,7 @@
 }
 
 nav {
+    z-index: 100;
     background-color: theme.$secondary-color;
     display: flex;
     justify-content: space-between;
